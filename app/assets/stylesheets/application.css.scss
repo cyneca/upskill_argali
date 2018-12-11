@@ -13,14 +13,18 @@
  *= require_tree .
  *= require_self
  */
- 
+
+//typography styles
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import "font-awesome-sprockets";
+@import "font-awesome";
  
  h1, h2, h3 {
      font-family: 'Noto Sans KR', sans-serif;
  }
  
+ //background gradient
 .navbar, .home-callout {
    //gradient provided by @_ighosh
   background: #000428;  /* fallback for old browsers */
@@ -29,10 +33,13 @@
 
 }
 
+
+// nav styles
 .navbar {
   border: none;
 }
 
+// navbar styles 
 .navbar-default .navbar-brand, 
 .navbar-default .navbar-nav > li > a {
   color: white;
